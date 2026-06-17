@@ -24,15 +24,86 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
+
+        shift_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <10 11>;
+        };
+
+        double_quotation {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <19 20>;
+        };
+
+        at_sign {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <14 13>;
+        };
+
+        ESC_sign {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        ctrlz {
+            bindings = <&kp LC(Z)>;
+            key-positions = <21 22>;
+        };
+
+        AltDown {
+            bindings = <&kp LA(DOWN_ARROW)>;
+            key-positions = <17 18>;
+        };
+
+        Alt09 {
+            bindings = <&Alt09>;
+            key-positions = <1 2>;
+        };
+
+        Alt08 {
+            bindings = <&Alt08>;
+            key-positions = <2 3>;
+        };
+
+        Alt07 {
+            bindings = <&Alt07>;
+            key-positions = <3 4>;
+        };
+
+        new_folder {
+            bindings = <&new_folder>;
+            key-positions = <25 26>;
+        };
+
+        TeamsMute {
+            bindings = <&kp LS(LC(M))>;
+            key-positions = <28 29>;
+        };
+
+        Mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <27 28>;
+        };
+
+        HENKAN {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <25 24>;
+        };
+
+        Ctrl+Plus {
+            bindings = <&kp LC(KP_PLUS)>;
+            key-positions = <19 18>;
+        };
+
+        streamdeck {
+            bindings = <&kp LA(LC(P))>;
+            key-positions = <9 8>;
+        };
+    };
     };
 
     macros {
