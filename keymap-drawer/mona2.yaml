@@ -345,7 +345,35 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [39, 38]
-  k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
+- p: [10, 11]
+  k: Sft+TAB
+- p: [19, 20]
+  k: '"'
+- p: [14, 13]
+  k: '@'
+- p: [0, 1]
+  k: ESC
+- p: [21, 22]
+  k: Ctl+Z
+- p: [17, 18]
+  k: Alt+DOWN ARROW
+- p: [1, 2]
+  k: '&Alt09'
+- p: [2, 3]
+  k: '&Alt08'
+- p: [3, 4]
+  k: '&Alt07'
+- p: [25, 26]
+  k: '&new_folder'
+- p: [28, 29]
+  k: Sft+Ctl+M
+- p: [27, 28]
+  k: MUTE
+- p: [25, 24]
+  k: INT HENKAN
+- p: [19, 18]
+  k: Ctl+KP PLUS
+- p: [9, 8]
+  k: Alt+Ctl+P
