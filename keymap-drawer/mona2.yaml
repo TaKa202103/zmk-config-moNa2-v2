@@ -135,18 +135,18 @@ layers:
   - PRINTSCREEN
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
+  - Gui+Sft+UP ARROW
+  - Sft+Gui+LEFT ARROW
   - UP ARROW
-  - END
+  - Sft+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - Gui+Sft+DOWN ARROW
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -155,10 +155,10 @@ layers:
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - Meh+TAB
+  - Alt+Ctl+TAB
+  - Gui+E
   - DELETE
   - PAGE UP
   - PAGE DOWN
@@ -169,8 +169,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
