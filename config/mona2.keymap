@@ -104,7 +104,6 @@
             key-positions = <9 8>;
         };
     };
-    };
 
     macros {
         to_layer_0: to_layer_0 {
