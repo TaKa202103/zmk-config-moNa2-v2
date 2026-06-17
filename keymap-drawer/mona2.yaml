@@ -14,7 +14,7 @@ layers:
   - {t: A, h: LEFT SHIFT}
   - S
   - D
-  - F
+  - {t: F, h: '5'}
   - {t: G, h: Sft+Gui+S}
   - '-'
   - H
@@ -186,7 +186,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&mkp MB1'
+  - {t: '&mkp MB1', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
