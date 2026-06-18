@@ -135,7 +135,7 @@ layers:
   - PRINTSCREEN
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - Gui+Sft+UP ARROW
+  - Gui+UP ARROW
   - Sft+Gui+LEFT ARROW
   - UP ARROW
   - Sft+Gui+RIGHT ARROW
@@ -159,7 +159,7 @@ layers:
   - Meh+TAB
   - Alt+Ctl+TAB
   - Gui+E
-  - Sft+Ctl+LEFT ARROW
+  - Sft+Ctl+Gui+LEFT ARROW
   - {t: ▽, type: trans}
   - Sft+Gui+RIGHT ARROW
   - Ctl+W
