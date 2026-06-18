@@ -119,7 +119,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - F10
+  - '&Doubl_00'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
