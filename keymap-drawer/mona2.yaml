@@ -215,49 +215,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&NewPass'
-  '5':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+Gui+D
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: '&mkp MB1', type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+DOWN ARROW
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -300,6 +257,49 @@ layers:
   - {t: ▽, type: trans}
   - '&Alt03'
   - '&Alt02'
+  - {t: ▽, type: trans}
+  '5':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Gui+D
+  - Sft+Ctl+TAB
+  - Ctl+TAB
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {t: '&mkp MB1', type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+DOWN ARROW
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '7':
   - {t: ▽, type: trans}
