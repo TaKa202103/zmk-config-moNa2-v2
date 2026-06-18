@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: ARROW}
+  - {t: P, h: '6'}
   - {t: A, h: LEFT SHIFT}
   - S
   - D
@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: '''', h: '6'}
+  - {t: '''', h: BLUETOOTH}
   - {t: Z, h: LEFT CONTROL}
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT5', h: '5'}
+  - {t: '&to_layer_0 INT5', h: MACRO}
   - {t: '&to_layer_0 SPACE', h: NUM}
   - {t: '&to_layer_0 INT2', h: ARROW}
   - BACKSPACE
@@ -139,7 +139,7 @@ layers:
   - Sft+Gui+LEFT ARROW
   - UP ARROW
   - Sft+Gui+RIGHT ARROW
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Alt+F4
@@ -252,7 +252,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&Alt03'
@@ -279,7 +279,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -311,18 +311,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
