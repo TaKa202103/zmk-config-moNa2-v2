@@ -276,8 +276,8 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&KAOname'
+  - '&NewPass'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
