@@ -44,13 +44,7 @@
 
 &mkp_input_listener { input-processors = <&zip_temp_layer MOUSE 10000>; };
 
-&trackball_central {
-    cpi = <800>;
-    swap-xy;
-    // invert-x;
-    // invert-y;
 };
-
 
 / {
     combos {
