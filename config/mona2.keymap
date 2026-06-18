@@ -513,7 +513,7 @@
             bindings = <
 &kp MINUS               &kp LS(LC(UP_ARROW))    &kp LC(F1)               &kp DOLLAR            &kp PLUS                                                &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
 &mt LEFT_SHIFT SLASH    &kp LS(LC(DOWN_ARROW))  &mkp MB2                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                &kp LS(LA(MINUS))  &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH
-&mt LEFT_CONTROL COMMA  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT_ARROW))  &kp F2                &kp F4                 &kp PERIOD    &kp EQUAL          &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp F10
+&mt LEFT_CONTROL COMMA  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT_ARROW))  &kp F2                &kp F4                 &kp PERIOD    &kp EQUAL          &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &Doubl_00
 &trans                  &trans                  &trans                   &trans                &trans                 &trans        &trans             &kp ENTER                                               &kp COMMA
             >;
 
