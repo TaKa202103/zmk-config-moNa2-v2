@@ -14,14 +14,14 @@ layers:
   - {t: A, h: LEFT SHIFT}
   - S
   - D
-  - {t: F, h: '4'}
+  - {t: F, h: '5'}
   - {t: G, h: Sft+Gui+S}
   - '-'
   - H
   - J
   - K
   - L
-  - {t: '''', h: '6'}
+  - {t: '''', h: '4'}
   - {t: Z, h: LEFT CONTROL}
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT5', h: '5'}
+  - {t: '&to_layer_0 INT5', h: '6'}
   - {t: '&to_layer_0 SPACE', h: '2'}
   - {t: '&to_layer_0 INT2', h: '3'}
   - BACKSPACE
@@ -172,7 +172,7 @@ layers:
   - '&Win_left'
   - '&Win_right'
   - Alt+F4
-  '6':
+  '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&NewPass'
-  '4':
+  '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '5':
+  '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
