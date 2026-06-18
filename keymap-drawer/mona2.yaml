@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  DEFAULT:
+  '0':
   - {t: Q, h: ESC}
   - W
   - E
@@ -10,18 +10,18 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: '6'}
+  - {t: P, h: '7'}
   - {t: A, h: LEFT SHIFT}
   - S
   - D
-  - {t: F, h: '5'}
+  - {t: F, h: '4'}
   - {t: G, h: Sft+Gui+S}
   - '-'
   - H
   - J
   - K
   - L
-  - {t: '''', h: BLUETOOTH}
+  - {t: '''', h: '6'}
   - {t: Z, h: LEFT CONTROL}
   - X
   - C
@@ -37,13 +37,13 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT5', h: MACRO}
-  - {t: '&to_layer_0 SPACE', h: NUM}
-  - {t: '&to_layer_0 INT2', h: ARROW}
+  - {t: '&to_layer_0 INT5', h: '5'}
+  - {t: '&to_layer_0 SPACE', h: '2'}
+  - {t: '&to_layer_0 INT2', h: '3'}
   - BACKSPACE
-  - {t: '&to_layer_0 ENTER', h: FUNCTION}
+  - {t: '&to_layer_0 ENTER', h: '1'}
   - DEL
-  FUNCTION:
+  '1':
   - '!'
   - '?'
   - '&'
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - F12
-  NUM:
+  '2':
   - '-'
   - Sft+Ctl+UP ARROW
   - Ctl+F1
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ','
-  ARROW:
+  '3':
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - PRINTSCREEN
@@ -172,7 +172,7 @@ layers:
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Alt+F4
-  '5':
+  '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MACRO:
+  '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +258,7 @@ layers:
   - '&Alt03'
   - '&Alt02'
   - {t: ▽, type: trans}
-  BLUETOOTH:
+  '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&NewPass'
-  '6':
+  '7':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
