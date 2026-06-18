@@ -522,10 +522,10 @@
 
         ARROW {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                                              &kp LG(LS(UP_ARROW))    &kp LS(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LS(LG(RIGHT_ARROW))  &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))                         &kp HOME            &kp LG(LS(DOWN_ARROW))  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp LEFT_SHIFT           &kp LS(LA(LC(TAB)))    &kp LA(LC(TAB))     &kp LG(E)               &kp LS(LC(LEFT_ARROW))  &trans          &kp LS(LG(RIGHT_ARROW))  &kp LC(W)
-&trans  &trans              &trans                  &trans                   &trans                   &trans                 &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)                                                                      &kp LA(F4)
+&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                                              &kp LG(UP_ARROW)        &kp LS(LG(LEFT_ARROW))      &kp UP_ARROW    &kp LS(LG(RIGHT_ARROW))  &trans
+&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))                         &kp HOME            &kp LG(LS(DOWN_ARROW))  &kp LEFT_ARROW              &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
+&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &kp LEFT_SHIFT           &kp LS(LA(LC(TAB)))    &kp LA(LC(TAB))     &kp LG(E)               &kp LS(LC(LG(LEFT_ARROW)))  &trans          &kp LS(LG(RIGHT_ARROW))  &kp LC(W)
+&trans  &trans              &trans                  &trans                   &trans                   &trans                 &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)                                                                          &kp LA(F4)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
