@@ -67,12 +67,12 @@
 
 
 // Overrides for the input listener node
-&trackball_central_listener {
+&trackball_listener {
     status = "okay";
-    device = <&trackball_central>;
+    device = <&trackball>;
 
     scroller {
-        layers = <3>;
+        layers = <7>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
