@@ -511,7 +511,7 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION                  &kp QUESTION  &kp AMPERSAND  &kp LESS_THAN         &kp NUMBER_5                                &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL  &kp SQT  &kp PIPE
+&kp EXCLAMATION                  &kp QUESTION  &kp AMPERSAND  &kp LESS_THAN         &kp GREATER_THAN                            &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EQUAL  &kp SQT  &kp PIPE
 &mt LEFT_SHIFT AT_SIGN           &kp HASH      &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS              &kp F11  &kp F6          &kp F7           &kp F8     &kp F9   &kp F10
 &mt LEFT_SHIFT NON_US_BACKSLASH  &kp SLASH     &kp PERCENT    &kp CARET             &kp COLON              &kp INT3    &kp F8   &kp F1          &kp F2           &kp F3     &kp F4   &kp F5
 &trans                           &trans        &trans         &trans                &trans                 &trans      &trans   &trans                                               &kp F12
