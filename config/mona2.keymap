@@ -12,9 +12,9 @@
 #define FUNCTION 1
 #define NUM 2
 #define ARROW 3
-#define MOUSE 4
-#define MACRO 5
-#define BLUETOOTH 6
+#define BLUETOOTH 4
+#define MOUSE 5
+#define MACRO 6
 #define SCROLL 7
 
 &mt {
