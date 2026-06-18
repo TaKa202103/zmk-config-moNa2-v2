@@ -13,8 +13,8 @@
 #define NUM 2
 #define ARROW 3
 #define BLUETOOTH 4
-#define MOUSE 5
-#define MACRO 6
+#define MACRO 5
+#define MOUSE 6
 #define SCROLL 7
 
 &mt {
@@ -29,7 +29,7 @@
     flavor = "balanced";
 };
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 4 250>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 6 250>; };
 
 / {
     combos {
