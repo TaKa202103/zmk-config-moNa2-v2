@@ -93,7 +93,7 @@
     device = <&trackball_central>;
 
     input-processors = <
-        &pointer_accel_scroll
+        &pointer_accel
         &zip_report_rate_limit 15
         &zip_temp_layer 6 10000>;
 
