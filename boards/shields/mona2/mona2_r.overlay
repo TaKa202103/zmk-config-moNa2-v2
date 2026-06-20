@@ -77,31 +77,14 @@
     };
 };
 
-/ {
-    pointer_accel_mouse: pointer_accel_mouse {
-        compatible = "zmk,input-processor-pointer-accel";
+&pointer_accel {
         input-type = <INPUT_EV_REL>;
-        track-remainders;
-        min-factor = <100>;
-        max-factor = <6000>;
-        speed-threshold = <1200>;
-        speed-max = <2000>;
-        acceleration-exponent = <2>;
-    };
-
-    pointer_accel_scroll: pointer_accel_scroll {
-        compatible = "zmk,input-processor-pointer-accel";
-        input-type = <INPUT_EV_REL>;
-        track-remainders;
-        min-factor = <100>;
-        max-factor = <2000>;
-        speed-threshold = <3000>;
-        speed-max = <4000>;
+        min-factor = <200>;
+        max-factor = <4000>;
+        speed-threshold = <1000>;
+        speed-max = <6000>;
         acceleration-exponent = <1>;
     };
-};
-
-
 
 // Overrides for the input listener node
 &trackball_central_listener {
@@ -117,7 +100,6 @@
     scroller {
         layers = <7>;
         input-processors = <
-            &pointer_accel_scroll
             &zip_xy_transform INPUT_TRANSFORM_X_INVERT
             &zip_xy_to_scroll_mapper          
             &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
