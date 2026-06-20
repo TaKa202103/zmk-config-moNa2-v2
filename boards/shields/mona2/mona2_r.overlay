@@ -1,6 +1,7 @@
 #include "mona2.dtsi"
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <behaviors/input_gestures_accel.dtsi>
 
 
 &default_transform {
@@ -76,6 +77,31 @@
     };
 };
 
+/ {
+    pointer_accel_mouse: pointer_accel_mouse {
+        compatible = "zmk,input-processor-pointer-accel";
+        input-type = <INPUT_EV_REL>;
+        track-remainders;
+        min-factor = <100>;
+        max-factor = <6000>;
+        speed-threshold = <1200>;
+        speed-max = <2000>;
+        acceleration-exponent = <2>;
+    };
+
+    pointer_accel_scroll: pointer_accel_scroll {
+        compatible = "zmk,input-processor-pointer-accel";
+        input-type = <INPUT_EV_REL>;
+        track-remainders;
+        min-factor = <100>;
+        max-factor = <2000>;
+        speed-threshold = <3000>;
+        speed-max = <4000>;
+        acceleration-exponent = <1>;
+    };
+};
+
+
 
 // Overrides for the input listener node
 &trackball_central_listener {
@@ -84,19 +110,20 @@
     device = <&trackball_central>;
 
     input-processors = <
+        &pointer_accel_scroll
         &zip_report_rate_limit 15
         &zip_temp_layer 6 10000>;
 
     scroller {
         layers = <7>;
-        input-processors = 
-            // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
-            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,       //X軸反転
-            <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
-            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,   //スクロールのX軸反転
-            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,   //スクロールのY軸反転
-            <&zip_scroll_scaler 1 8>,                           //スクロール量を1/4倍
-            <&zip_scroll_snap>;  
+        input-processors = <
+            &pointer_accel_scroll
+            &zip_xy_transform INPUT_TRANSFORM_X_INVERT
+            &zip_xy_to_scroll_mapper          
+            &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
+            &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT
+            &zip_scroll_scaler 1 8                   
+            &zip_scroll_snap>;  
         process-next;
     };
 
