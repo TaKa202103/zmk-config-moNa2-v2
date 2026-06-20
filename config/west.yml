@@ -14,6 +14,8 @@ manifest:
       url-base: https://github.com/zettaface
     - name: kot149
       url-base: https://github.com/kot149
+    - name: oleksandrmaslov
+      url-base: https://github.com/oleksandrmaslov   
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -45,6 +47,10 @@ manifest:
       remote: kot149
       revision: v1
       path: modules/zmk-scroll-snap
+
+    - name: zmk-pointing-acceleration
+      remote: oleksandrmaslov
+      revision: main
       
   self:
     path: config
