@@ -30,7 +30,7 @@
     flavor = "balanced";
 };
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 6 250>; };
+&mkp_input_listener { input-processors = <&zip_temp_layer 6 500>; };
 
 / {
     combos {
