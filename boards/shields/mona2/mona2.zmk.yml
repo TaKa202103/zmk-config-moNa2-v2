@@ -3,7 +3,7 @@ id: moNa2
 name: moNa2
 type: shield
 url: https://github.com/sayu-hub/zmk-config-moNa2.0
-requires: [xiao_ble//zmk]
+requires: [xiao_ble]
 features:
   - keys
   - pointer
