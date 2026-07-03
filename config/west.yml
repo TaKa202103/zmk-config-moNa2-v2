@@ -19,16 +19,17 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3-branch
+      revision: main
       import: app/west.yml
       
     - name: zmk-pmw3610-driver
       remote: badjeff
-      revision: zmk-0.3
+      revision: main
+      path: modules/zmk-pmw3610-driver-badjeff
       
     - name: zmk-input-processor-report-rate-limit
       remote: badjeff
-      revision: f43f37aae7aaa7bf0ec4d432683b873a7e3a8efa # for v0.3-branch
+      revision: main
       path: modules/zmk-input-processor-report-rate-limit
       
     # - name: zmk-driver-paw3222
@@ -37,7 +38,7 @@ manifest:
     
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: v0.3-branch
+      revision: main
       
     - name: zmk-input-processor-keybind
       remote: zettaface
