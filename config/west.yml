@@ -52,6 +52,9 @@ manifest:
     - name: zmk-pointing-acceleration
       remote: oleksandrmaslov
       revision: main
-      
+
+    - name: zmk-layout-shift
+      remote: kot149
+      revision: v2
   self:
     path: config
