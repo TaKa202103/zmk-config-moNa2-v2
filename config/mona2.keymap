@@ -145,8 +145,8 @@
             bindings =
                 <&macro_tap>,
                 <&none &kp SPACE>,
-                <&macro_wait_time 150>,
-                <&kp BACKSPACE &kp EXCLAMATION &kp LS(T) &kp a &kp k &kp a &kp HASH &kp NUMBER_0 &kp NUMBER_5 &kp NUMBER_2 &kp NUMBER_2 &kp ENTER>,
+                <&macro_wait_time 300>,
+                <&kp BACKSPACE &kp EXCLAMATION &kp LS(T) &kp A &kp K &kp A &kp HASH &kp NUMBER_0 &kp NUMBER_5 &kp NUMBER_2 &kp NUMBER_2 &kp ENTER>,
                 <&macro_release>;
 
             label = "NEWPASS";
