@@ -21,6 +21,9 @@ config SPI
 config PMW3610_ALT
     default y
 
+config LAYOUT_SHIFT_PERSISTENT_STATE
+    default y
+
 endif
 
 if SHIELD_MONA2_R || SHIELD_MONA2_L
