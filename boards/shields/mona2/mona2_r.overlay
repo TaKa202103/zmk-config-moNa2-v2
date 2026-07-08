@@ -93,6 +93,8 @@
     device = <&trackball_central>;
 
     input-processors = <
+        &zip_xy_scaler 3 2
+        &pointer_accel
         &zip_temp_layer 6 10000>;
 
     scroller {
