@@ -102,7 +102,7 @@ layers:
   - '&mkp MB2'
   - (
   - )
-  - Sft+Alt+-
+  - Alt+Sft+^
   - '*'
   - '4'
   - '5'
@@ -132,10 +132,10 @@ layers:
   '3':
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
-  - PRINTSCREEN
+  - Alt+PRINTSCREEN
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - Gui+UP ARROW
+  - '&Win_up'
   - Sft+Gui+LEFT ARROW
   - UP ARROW
   - Sft+Gui+RIGHT ARROW
@@ -146,7 +146,7 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
   - HOME
-  - Gui+DOWN ARROW
+  - '&Win_down'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
