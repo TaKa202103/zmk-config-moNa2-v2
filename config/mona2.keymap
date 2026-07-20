@@ -466,18 +466,18 @@
             tapping-term-ms = <200>;
         };
 
-        scroll_down_up: mouse_wheel_up_down {
+        scroll_up_down: mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
             tap-ms = <20>;
         };
 
-        scroll_right_left: mouse_wheel_right_left {
+        scroll_left_right: mouse_wheel_right_left {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
+            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
             tap-ms = <20>;
         };
@@ -512,7 +512,7 @@
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 INT5  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 INT2    &kp BACKSPACE  &lt_to_layer_0 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&scroll_down_up>;
+            sensor-bindings = <&scroll_uo_down>;
         };
 
         FUNCTION {
@@ -567,7 +567,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &Alt03  &Alt02                        &trans
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&scroll_left_right>;
         };
 
         MOUSE {
@@ -578,7 +578,7 @@
 &trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                                      &trans
             >;
 
-            sensor-bindings = <&scroll_down_up>;
+            sensor-bindings = <&scroll_uo_down>;
         };
 
         SCROLL {
@@ -589,7 +589,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&scroll_left_right>;
         };
     };
 };
