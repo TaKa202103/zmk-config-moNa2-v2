@@ -512,7 +512,7 @@
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 5 INT5  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 INT2    &kp BACKSPACE  &lt_to_layer_0 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         FUNCTION {
@@ -578,7 +578,7 @@
 &trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                                      &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scrolldown_up>;
         };
 
         SCROLL {
