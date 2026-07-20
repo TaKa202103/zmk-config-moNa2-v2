@@ -578,7 +578,7 @@
 &trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                                      &trans
             >;
 
-            sensor-bindings = <&scrolldown_up>;
+            sensor-bindings = <&scroll_down_up>;
         };
 
         SCROLL {
