@@ -96,7 +96,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - KP MINUS
+  - '-'
   - {t: /, h: LEFT SHIFT}
   - Sft+Ctl+DOWN ARROW
   - '&mkp MB2'
