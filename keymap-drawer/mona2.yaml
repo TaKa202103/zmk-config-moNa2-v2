@@ -22,7 +22,7 @@ layers:
   - K
   - L
   - {t: '''', h: '4'}
-  - {t: Z, h: LEFT CONTROL}
+  - {t: Z, h: LCTRL}
   - X
   - C
   - V
@@ -108,7 +108,7 @@ layers:
   - '5'
   - '6'
   - /
-  - {t: ',', h: LEFT CONTROL}
+  - {t: ',', h: LCTRL}
   - Sft+Ctl+LEFT ARROW
   - Sft+Ctl+RIGHT ARROW
   - F2
