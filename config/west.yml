@@ -59,7 +59,7 @@ manifest:
 
     - name: zmk-layout-shift
       remote: my-github
-      revision: brance V2
+      revision: V2
       path: modules/zmk-layout-shift
 
   self:
