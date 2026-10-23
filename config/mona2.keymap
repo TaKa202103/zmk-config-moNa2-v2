@@ -506,6 +506,7 @@
 
         DEFAULT {
             bindings = <
+                &kp EQUAL
 &mt ESC Q           &kp W         &kp E         &kp R                  &kp T                                                           &kp Y                   &kp U  &kp I      &kp O    &lt 7 P
 &mt LEFT_SHIFT A    &kp S         &kp D         &lt 6 F                &mt LS(LG(S)) G                                  &kp MINUS      &kp H                   &kp J  &kp K      &kp L    &lt 4 SQT
 &mt LCTRL Z  &kp X         &kp C         &kp V                  &kp B                   &mt TILDE UNDERSCORE     &kp SEMI       &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
