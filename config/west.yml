@@ -53,8 +53,8 @@ manifest:
       remote: oleksandrmaslov
       revision: main
 
-   - name: zmk-layout-shift
-     remote: kot149
-     revision: v2
+    - name: zmk-layout-shift
+      remote: kot149
+      revision: v2
   self:
     path: config
