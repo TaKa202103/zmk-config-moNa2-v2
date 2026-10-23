@@ -59,7 +59,7 @@ manifest:
 
     - name: zmk-layout-shift
       remote: my-github
-      revision: v2 branch
+      revision: v2
       path: modules/zmk-layout-shift
 
   self:
