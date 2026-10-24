@@ -120,7 +120,7 @@ layers:
   - '2'
   - '3'
   - '&Doubl_00'
-  - {t: ▽, type: trans}
+  - {t: ^, h: LCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
